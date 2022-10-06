@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.image_text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+
+.text-block {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}

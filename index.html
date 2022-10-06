@@ -2,15 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .image_text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+        }
+
+        .text-block {
+            position: absolute;
+            background-color: black;
+            opacity: 0.5;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <img src="mountains.jpg" alt="Snow" style="width:100%;">
+        <div class="image_text text-block">This website is hosted with Github Pages!<br>
+            Click the logo to learn more:<br>
+            <a href="https://pages.github.com//">
+                <img alt="Github" src="GitHub-Mark-Light-120px-plus.png" style="padding-top: 2rem;"">
+            </a>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
